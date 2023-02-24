@@ -10,7 +10,17 @@
 >
  >echo $area   
 
- 
+ #Calculate Area of Square
+
+ >#!/bin/bash
+ >
+ >read -p "enter side" side
+ >
+ >area=$[$side*$side]
+ >
+ >echo $area
+
+
 
 
 
